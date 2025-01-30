@@ -5,8 +5,17 @@ import pprint
 import MakeEskeletonClass
 import infoManagerNodeClass
 
+
+
+
+
+
+
 NodeMaker = infoManagerNodeClass.infoManagerNodeClass()
 mec = MakeEskeletonClass.MakeEskeletonClass()
+
+
+
 
 NodeMaker.NodeMaker()
 
