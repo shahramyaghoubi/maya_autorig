@@ -2,29 +2,13 @@ from maya import cmds
 import os
 import json
 import pprint
-import MakeEskeletonClass
-import infoManagerNodeClass
 import sys
 import importlib
-import UiManager
-import Test
-
-
+import Make_Eskeleton
+import infoManagerNode
 
 print ("Run")
 
-
-infoManagerNodeClass.infoManagerNodeClass.info()
-
-
-
-MakeEskeletonClass.SkeletonBuilder().NodeMaker()
-
-
-UiManager.UiManager().UiMaker()
-UiManager.UiManager().UiMaker()
-
-Test.Test().TestMaker()
-
-
+Make_Eskeleton.SkeletonBuilder().NodeMaker()
+infoManagerNode.infoManagerNodeClass().makeInfoNode()
 
